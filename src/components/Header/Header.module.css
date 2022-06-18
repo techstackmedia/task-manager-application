@@ -1,0 +1,36 @@
+.header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header li {
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+.header li:first-child {
+  margin-left: 15px;
+}
+
+.header li:last-child {
+  margin-right: 15px;
+}
+
+.header button {
+  background-color: #3f78cc;
+  color: #fff;
+  border: 1px solid #3f78cc;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border-top-left-radius: 0;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.header svg {
+  width: 20px;
+  height: 20px;
+}

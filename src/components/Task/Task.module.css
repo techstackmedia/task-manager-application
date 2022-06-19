@@ -1,4 +1,4 @@
-:where(.currentTask div) {
+:where(.task div) {
   color: #b0aaaa;
   font-size: 10px;
   font-weight: bold;
@@ -17,7 +17,7 @@
   margin-top: 30px;
 }
 
-:where(.currentTask .card) {
+:where(.task .card) {
   background-color: #fff;
   height: 90px;
   margin-top: 10px;
@@ -36,7 +36,7 @@
   position: relative;
 }
 
-:where(.currentTask .alert) {
+:where(.task .alert) {
   background-color: orange;
   width: 6px;
   height: 6px;
@@ -46,12 +46,12 @@
   right: 10px;
 }
 
-:where(.currentTask .current) {
+:where(.task .current) {
   display: flex;
   margin-left: 20px;
 }
 
-:where(.currentTask svg) {
+:where(.task svg) {
   padding: 10px;
 }
 
@@ -70,20 +70,18 @@
 :where(.taskType) {
   background-color: #e2e1e1;
   color: #716d6d;
-  width: 80px;
-  height: 17px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #e2e1e1;
   border-radius: 30px;
   font-weight: 900;
   font-style: italic;
-  margin-top: 10px;
   font-size: 9px;
+  margin-top: 10px;
+  padding: 5px;
+  display: block;
+  width: 90px;
+  text-align: center;
 }
 
-:where(.currentTask small) {
+:where(.task small) {
   color: #716d6d;
   font-weight: 400;
   font-size: 8px;
@@ -96,12 +94,12 @@
   font-size: 9px;
 }
 
-:where(.currentTask p) {
+:where(.task p) {
   margin-top: 4px;
   font-size: 11px;
 }
 
-:where(.currentTask .button) {
+:where(.task .button) {
   border: 1px solid #969292;
   padding: 10px 60px 10px 15px;
   border-radius: 25px;
@@ -138,4 +136,17 @@
   border-radius: 50%;
   left: 24px;
   top: 10px;
+}
+
+.task div .card:nth-child(3) {
+  position: relative;
+  margin-top: 51.5px;
+}
+
+.task div .card:nth-child(3)::before {
+  position: absolute;
+  content: 'Next';
+  text-transform: uppercase;
+  top: -20px;
+  left: 0;
 }

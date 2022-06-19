@@ -2,7 +2,8 @@ import Header from "../../components/Header/Header";
 import Search from "../../components/Search/Search";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import HeaderTask from "../../components/HeaderTask/HeaderTask";
-import CurrentTask from "../../components/CurrentTask/CurrentTask";
+import CurrentTask from "../../components/Task/Task";
+// import PaginationCustom from "../../components/Pagination/PaginationCustom";
 import "./Home.css";
 
 const Home = () => {
@@ -10,11 +11,13 @@ const Home = () => {
     <>
       <Header />
       <Search />
+      {/* <PaginationCustom/> */}
       <div className="Home">
         <Sidebar />
         <HeaderTask />
         <CurrentTask />
       </div>
+      {/* <PaginationCustom /> */}
     </>
   );
 };

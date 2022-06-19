@@ -8,7 +8,7 @@
 .header ul {
   display: flex;
   margin-bottom: 0;
-  margin-left: calc(25% + 20px);
+  margin-left: calc(25% + 10px);
   margin-top: -10px;
 }
 
@@ -16,12 +16,33 @@
   display: flex;
   justify-content: flex-end;
   font-size: 12px;
+  position: relative;
+  bottom: 10px;
 }
 
 .header li {
   list-style-type: none;
   margin-right: 20px;
-  padding: 5px 0;
+  padding: 10px 0;
+}
+
+.checks li {
+  position: relative;
+  cursor: pointer;
+}
+
+.checks li:first-child {
+  color: rgb(70, 69, 69);
+}
+
+.checks li:hover:before,
+.checks li:first-child:before {
+  position: absolute;
+  content: '';
+  border: 1.5px solid #3f78cc;
+  top: 85%;
+  left: 0;
+  right: 0;
 }
 
 .header ul:last-child li {

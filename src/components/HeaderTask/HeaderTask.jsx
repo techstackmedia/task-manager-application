@@ -4,7 +4,7 @@ const HeaderTask = () => {
   return (
     <header className={header.header}>
       <nav>
-        <ul>
+        <ul className={header.checks}>
           <li>Active Task (2)</li>
           <li>Completed (1)</li>
           <li>Archived (6)</li>

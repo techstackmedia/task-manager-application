@@ -1,42 +1,21 @@
-.currentTask {
-  position: absolute;
-}
-
 .currentTask div {
-  display: flex;
-  margin-left: 18.8%;
-  margin-top: 16.5px;
   color: #b0aaaa;
   text-transform: uppercase;
   font-size: 10px;
   font-weight: bold;
+  height: calc(100vh + -279px);
+  margin-left: 20px;
 }
 
 .currentTask .card {
-  margin-top: 51px;
-  margin-left: -43px;
   background-color: #fff;
-  display: block;
-  width: 100%;
-}
-
-.currentTask div:first-child div:first-child div:last-child {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 10px;
+  text-align: left;
+  height: 80px;
+  margin-top: 10px;
+  /* margin-top: -10px; */
 }
 
 .currentTask span {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  color: #fff;
-  background-color: #b0aaaa;
-  text-transform: lowercase;
-  font-size: 7px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: -6px;
+  margin-left: 20px;
 }

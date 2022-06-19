@@ -3,14 +3,8 @@ const CurrentTask = () => {
   return (
     <section className={currentTask.currentTask}>
       <div>
-        <div>
-          <div>current</div>
-          <div>
-            <span>i</span>
-          </div>
-        </div>
-
-        <div className={currentTask.card}>assacascscda</div>
+        <span>current</span>
+        <div className={currentTask.card}>hvj</div>
       </div>
     </section>
   );

@@ -3,13 +3,13 @@
   color: #938c8c;
   font-weight: 600;
   font-size: 15px;
-  width: 100%;
 }
 
 .header ul {
   display: flex;
-  margin-left: 28%;
   margin-bottom: 0;
+  margin-left: calc(25% + 20px);
+  margin-top: -10px;
 }
 
 .header ul:last-child {

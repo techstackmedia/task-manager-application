@@ -11,14 +11,28 @@ const CurrentTask = () => {
   return (
     <section className={currentTask.currentTask}>
       <div>
-        <span className={currentTask.label}>current</span>
-        <CustomTaskCustom />
-        <span
-          className={currentTask.label}
-          style={{ marginTop: "30px", display: "block" }}
-        >
-          next
+        <span className={currentTask.label}>
+          current{" "}
+          <small className={currentTask.important}
+            style={{
+              width: 10,
+              height: 10,
+              borderRadius: 5,
+              color: "#fff",
+              backgroundColor: "#938c8c",
+              display: "inline-flex",
+              justifyContent: "center",
+              alignItems: "center",
+              textTransform: "lowercase",
+              marginLeft: 3,
+              fontSize: 8,
+            }}
+          >
+            i
+          </small>
         </span>
+        <CustomTaskCustom />
+        <span className={currentTask.label}>next</span>
         {taskList}
       </div>
     </section>

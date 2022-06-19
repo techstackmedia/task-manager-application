@@ -7,10 +7,10 @@ const Search = () => {
       <div>
         <label htmlFor="search">
           <div>
-            <div className={search.left}>
+            <div>
               <MdSearch color="#ccc" />
             </div>
-            <div className={search.right}>
+            <div>
               <span>Sort by</span>
               <MdSort color="#716d6d" />
             </div>

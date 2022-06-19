@@ -1,4 +1,4 @@
-.currentTask div {
+:where(.currentTask div) {
   color: #b0aaaa;
   font-size: 10px;
   font-weight: bold;
@@ -6,34 +6,33 @@
   margin-left: 26px;
 }
 
-.currentTask .card {
+:where(.label) {
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: rgb(131, 128, 128);
+}
+
+:where(.currentTask .card) {
   background-color: #fff;
   height: 90px;
   margin-top: 10px;
   display: flex;
+  justify-content: space-between;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
   margin-left: 0;
-  margin-top: 35px;
+  margin-top: 10px;
   position: relative;
 }
 
-.currentTask .card::before {
-  position: absolute;
-  content: 'Current';
-  top: -18px;
-  left: 0;
-  text-transform: uppercase;
-  color: #938c8c;
-}
-
-.notification {
+:where(.notification) {
   position: relative;
 }
 
-.currentTask .alert {
+:where(.currentTask .alert) {
   background-color: orange;
   width: 6px;
   height: 6px;
@@ -43,28 +42,28 @@
   right: 10px;
 }
 
-.currentTask .current {
+:where(.currentTask .current) {
   display: flex;
   margin-left: 20px;
 }
 
-.currentTask svg {
+:where(.currentTask svg) {
   padding: 10px;
 }
 
-.item {
+:where(.item) {
   display: flex;
   flex-direction: column;
 }
 
-.item h3 {
+:where(.item h3) {
   max-width: 180px;
   color: #000;
   font-size: 14px;
   font-weight: 600;
 }
 
-.taskType {
+:where(.taskType) {
   background-color: #e2e1e1;
   color: #716d6d;
   width: 80px;
@@ -74,30 +73,31 @@
   align-items: center;
   border: 1px solid #e2e1e1;
   border-radius: 30px;
-  font-weight: 800;
+  font-weight: 900;
   font-style: italic;
   margin-top: 10px;
+  font-size: 9px;
 }
 
-.currentTask small {
+:where(.currentTask small) {
   color: #716d6d;
   font-weight: 400;
   font-size: 8px;
   margin-top: 3px;
 }
 
-.delivery {
+:where(.delivery) {
   margin-top: 10px;
   color: #716d6d;
   font-size: 9px;
 }
 
-.currentTask p {
+:where(.currentTask p) {
   margin-top: 4px;
   font-size: 11px;
 }
 
-.currentTask .button {
+:where(.currentTask .button) {
   border: 1px solid #969292;
   padding: 10px 60px 10px 15px;
   border-radius: 25px;
@@ -112,7 +112,7 @@
   align-items: center;
 }
 
-.button small {
+:where(.button small) {
   width: 9px;
   height: 9px;
   background-color: orange;
@@ -122,11 +122,11 @@
   margin-right: 10px;
 }
 
-.chatBox {
+:where(.chatBox) {
   position: relative;
 }
 
-.chat {
+:where(.chat) {
   position: absolute;
   background-color: red;
   width: 4px;

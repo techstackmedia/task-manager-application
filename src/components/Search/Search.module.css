@@ -42,7 +42,7 @@
   transform: rotate(90deg);
   position: absolute;
   right: 263px;
-  top: 122px;
+  top: 127px;
 }
 
 :where(.search div:first-child div:first-child div:first-child) {

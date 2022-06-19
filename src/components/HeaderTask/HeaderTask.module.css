@@ -38,7 +38,7 @@
 .checks li:hover:before,
 .checks li:first-child:before {
   position: absolute;
-  content: '';
+  content: "";
   border: 1.5px solid #3f78cc;
   top: 85%;
   left: 0;

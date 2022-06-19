@@ -25,6 +25,13 @@ const CurrentTaskCustom = () => {
           </span>
         </span>
         <span>
+          <img
+            src="https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1644990728693%2FWHHblb4Jn.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75"
+            width={40}
+            height={40}
+            alt="person avatar"
+            style={{ float: "left", marginRight: 15, borderRadius: "50%" }}
+          />
           <span className={currentTask.item}>
             <h3>Adamu Musa</h3>
             <p>Assigned to</p>

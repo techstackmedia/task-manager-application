@@ -1,7 +1,8 @@
 :where(.sidebar) {
   width: 25%;
   background-color: #fff;
-  height: calc(100vh - 197px);
+  height: calc(76.500px + 90px + 0px + 30px + 11.500px + (90px + 10px) * 5);
+  /* 76.500 + 90 + 30 + 11.500 + 90 + 10 + */
 }
 
 :where(.sidebar div) {

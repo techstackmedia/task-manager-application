@@ -145,8 +145,9 @@
 
 .task div .card:nth-child(3)::before {
   position: absolute;
-  content: 'Next';
+  content: "Next";
   text-transform: uppercase;
   top: -20px;
   left: 0;
+  color: rgb(131, 128, 128);
 }

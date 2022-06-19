@@ -1,4 +1,4 @@
-import { IoMdAdd } from 'react-icons/io';
+import { MdAdd } from 'react-icons/md';
 import logo from '../../logo.svg';
 import header from './Header.module.css';
 
@@ -12,7 +12,7 @@ const Header = () => {
           </li>
           <li>
             <button type="button">
-              Add a new task <IoMdAdd />
+              Add a new task <MdAdd />
             </button>
           </li>
         </ul>

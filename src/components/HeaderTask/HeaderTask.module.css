@@ -1,0 +1,41 @@
+.header {
+  position: absolute;
+  color: #938c8c;
+  font-weight: 600;
+  font-size: 15px;
+  width: 100%;
+}
+
+.header ul {
+  display: flex;
+  margin-left: 28%;
+  margin-bottom: 0;
+}
+
+.header ul:last-child {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+}
+
+.header li {
+  list-style-type: none;
+  margin-right: 20px;
+  padding: 5px 0;
+}
+
+.header ul:last-child li {
+  margin-right: 0;
+  color: #4c4a4a;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.header hr {
+  border-bottom: 0;
+  transform: rotate(90deg);
+  width: 20px;
+  border: 0.3px solid #4c4a4a;
+  position: relative;
+  top: 5px;
+}

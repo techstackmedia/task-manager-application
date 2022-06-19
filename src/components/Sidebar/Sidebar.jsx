@@ -1,4 +1,3 @@
-// import { GrCheckbox } from 'react-icons/gr';
 import {
   SidebarTagsInterface as tags,
   SidebarTaskPriceRangeInterface as taskPriceRange,

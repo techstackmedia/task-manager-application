@@ -1,7 +1,6 @@
 :where(.sidebar) {
-  width: 19%;
+  width: 25%;
   background-color: #fff;
-  margin-left: 10%;
   height: calc(100vh - 197px);
 }
 
@@ -24,7 +23,7 @@
 
 :where(.sidebar h4) {
   margin: 20px 0 15px 8px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 :where(.sidebar li) {

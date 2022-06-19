@@ -17,3 +17,10 @@ section {
   width: 80%;
   margin: auto;
 }
+
+img {
+  object-fit: contain;
+  -webkit-object-fit: contain;
+  -moz-object-fit: contain;
+  -o-object-fit: contain;
+}

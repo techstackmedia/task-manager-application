@@ -3,6 +3,7 @@ import { FaAngleRight } from "react-icons/fa";
 import classnames from "classnames";
 import { usePagination, DOTS } from "./usePagination";
 import "./Pagination.css";
+
 const Pagination = (props) => {
   const {
     onPageChange,
@@ -19,7 +20,6 @@ const Pagination = (props) => {
     siblingCount,
     pageSize,
   });
-
 
 
   if (currentPage === 0 || paginationRange.length < 2) {

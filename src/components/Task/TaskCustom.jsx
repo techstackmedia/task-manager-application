@@ -1,12 +1,12 @@
 import { MdOutlineLibraryBooks, MdChat, MdMoreHoriz } from "react-icons/md";
-import { useState, useMemo } from 'react';
+import { useState, useMemo } from "react";
 import Pagination from "../Pagination/Pagination";
 import { TaskData as data } from "../../mock/TaskData";
 import task from "./Task.module.css";
 
 let PageSize = 6;
 
-const CurrentTaskCustom = () => {
+const TaskCustom = () => {
   const [currentPage, setCurrentPage] = useState(1);
 
   const currentTableData = useMemo(() => {
@@ -14,7 +14,7 @@ const CurrentTaskCustom = () => {
     const lastPageIndex = firstPageIndex + PageSize;
     return data.slice(firstPageIndex, lastPageIndex);
   }, [currentPage]);
-  
+
   const customTaskData = currentTableData.map((item) => {
     return (
       <>
@@ -79,10 +79,10 @@ const CurrentTaskCustom = () => {
         currentPage={currentPage}
         totalCount={data.length}
         pageSize={PageSize}
-        onPageChange={page => setCurrentPage(page)}
+        onPageChange={(page) => setCurrentPage(page)}
       />
     </>
   );
 };
 
-export default CurrentTaskCustom;
+export default TaskCustom;

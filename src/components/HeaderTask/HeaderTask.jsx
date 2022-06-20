@@ -1,9 +1,7 @@
-import { usePagination } from "../Pagination/usePagination";
-import classnames from "classnames";
 import "../Pagination/Pagination.css";
 import header from "./HeaderTask.module.css";
 
-const HeaderTask = (props) => {
+const HeaderTask = () => {
   return (
     <header className={header.header}>
       <nav>

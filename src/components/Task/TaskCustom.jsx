@@ -55,7 +55,7 @@ const TaskCustom = ({ feedback }) => {
             <span className={task.button}>
               {" "}
               <span className={task.buttonAlert}>
-                <small></small> {item.verify}
+                <small></small> {item.confirm}
               </span>
             </span>
           </span>

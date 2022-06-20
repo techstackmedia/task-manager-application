@@ -7,7 +7,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Victoria",
     day: 1,
-    verify: "Verify",
+    confirm: "Verify",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1644990728693%2FWHHblb4Jn.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -19,7 +19,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Jerry",
     day: 4,
-    verify: "In Progress",
+    confirm: "In Progress",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1597741164753%2FothOPYGRR.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -30,7 +30,7 @@ const TaskData = [
     price: "4000.00",
     delivery: "3",
     assigned: "Margo",
-    verify: "In Review",
+    confirm: "In Review",
     day: 2,
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1599150157996%2FNabONdQwo.png%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
@@ -43,7 +43,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Tapan",
     day: 9,
-    verify: "On hold",
+    confirm: "On hold",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1604253507198%2FQeNYXv7mn.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -55,7 +55,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Apurv",
     day: 9,
-    verify: "In Review",
+    confirm: "In Review",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1612672474877%2F3T2K2h7zw.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -67,7 +67,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Hamza",
     day: 7,
-    verify: "On hold",
+    confirm: "On hold",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1622006419578%2FwJIH-HgrQ.png%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -79,7 +79,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Narottam",
     day: 1,
-    verify: "Verify",
+    confirm: "Verify",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1651369955440%2F4LkCXHoAx.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -91,7 +91,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Oladetoun",
     day: 4,
-    verify: "In Review",
+    confirm: "In Review",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1629146009451%2F2R8tbYpdG2w.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -103,7 +103,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Jorge",
     day: 2,
-    verify: "In Progress",
+    confirm: "In Progress",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1654381898876%2Fpmfx9_rkg.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -115,7 +115,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Johnny",
     day: 9,
-    verify: "Verify",
+    confirm: "Verify",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1644970736133%2FjUaJ0QHZs.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -127,7 +127,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Ali",
     day: 9,
-    verify: "In Review",
+    confirm: "In Review",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1648354558484%2F0ThUVAogQ.png%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -139,7 +139,7 @@ const TaskData = [
     delivery: "3",
     assigned: "DX Tips",
     day: 7,
-    verify: "In Review",
+    confirm: "In Review",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1651265596873%2F2nbyoDZHS.jpg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -151,7 +151,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Community",
     day: 1,
-    verify: "In Progress",
+    confirm: "In Progress",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1651404282238%2FH4kp55-k0.png%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -163,7 +163,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Fueler",
     day: 4,
-    verify: "On hold",
+    confirm: "On hold",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655152396924%2F-dm62-G33.png%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -175,7 +175,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Devrajsinh",
     day: 2,
-    verify: "In Progress",
+    confirm: "In Progress",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655305238110%2FPryq6mbt-.png%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -187,7 +187,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Syed",
     day: 9,
-    verify: "Canceled",
+    confirm: "Canceled",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1635317886030%2F0TTaE1pgQ.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -199,7 +199,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Tomek",
     day: 9,
-    verify: "Verify",
+    confirm: "Verify",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1650437148264%2FOzMNlCc0Q.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -210,7 +210,7 @@ const TaskData = [
     price: "5000.00",
     delivery: "3",
     assigned: "Eleftheria",
-    verify: "In Progress",
+    confirm: "In Progress",
     day: 7,
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1622723816461%2FuuNxjbiPv.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
@@ -223,7 +223,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Bhumi",
     day: 1,
-    verify: "Verify",
+    confirm: "Verify",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1622991668997%2Ff1ydQ-cHz.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -235,7 +235,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Thai",
     day: 4,
-    verify: "Verify",
+    confirm: "Verify",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1650803057828%2FduEayoibH.jpg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -247,7 +247,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Daily",
     day: 2,
-    verify: "On hold",
+    confirm: "On hold",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1629097019980%2Fic5NIxfjz.png%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -258,7 +258,7 @@ const TaskData = [
     price: "800.00",
     delivery: "3",
     assigned: "Ajay",
-    verify: "Verify",
+    confirm: "Verify",
     day: 9,
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1637405659320%2FutkAF2-L8J.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
@@ -270,7 +270,7 @@ const TaskData = [
     price: "1000.00",
     delivery: "3",
     assigned: "Avneesh",
-    verify: "Verify",
+    confirm: "Verify",
     day: 9,
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1641478272697%2FdVaHUxIpe.png%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
@@ -282,7 +282,7 @@ const TaskData = [
     price: "400.00",
     delivery: "3",
     assigned: "Iftakher",
-    verify: "In Progress",
+    confirm: "In Progress",
     day: 7,
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625119194612%2FYABKfZKxE.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
@@ -294,7 +294,7 @@ const TaskData = [
     price: "500.00",
     delivery: "3",
     assigned: "Vinayak",
-    verify: "In Progress",
+    confirm: "In Progress",
     day: 1,
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1610439178110%2F5pDZoBgAp.png%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
@@ -306,7 +306,7 @@ const TaskData = [
     price: "300.00",
     delivery: "3",
     assigned: "Prateek",
-    verify: "In Progress",
+    confirm: "In Progress",
     day: 4,
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1566714877589%2F8LDTn1Nj-.png%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
@@ -318,7 +318,7 @@ const TaskData = [
     price: "4000.00",
     delivery: "3",
     assigned: "Jesmon",
-    verify: "In Review",
+    confirm: "In Review",
     day: 2,
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655577271185%2FNFux0MXQs.jpg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
@@ -330,7 +330,7 @@ const TaskData = [
     price: "645.00",
     delivery: "3",
     assigned: "Uche",
-    verify: "Verify",
+    confirm: "Verify",
     day: 9,
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1650198804577%2FUhq5HwrSH.png%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
@@ -342,7 +342,7 @@ const TaskData = [
     price: "2000.00",
     delivery: "3",
     assigned: "Pratyay",
-    verify: "Verify",
+    confirm: "Verify",
     day: 9,
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655665319618%2Fgepxeouur.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
@@ -354,7 +354,7 @@ const TaskData = [
     price: "5000.00",
     delivery: "3",
     assigned: "Utkarsh",
-    verify: "Verify",
+    confirm: "Verify",
     day: 7,
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1643707955500%2FqDAyv6PK_.png&w=3840&q=75",
@@ -367,7 +367,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Oluwole",
     day: 1,
-    verify: "Verify",
+    confirm: "Verify",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1653562179208%2F7QE6h4yeM.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -379,7 +379,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Koder",
     day: 4,
-    verify: "Verify",
+    confirm: "Verify",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1653472301805%2FKXvtDzPmu0.png%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -391,7 +391,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Parjanya",
     day: 2,
-    verify: "On hold",
+    confirm: "On hold",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1651074184447%2Fl7duxmJiS.JPG%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -403,7 +403,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Abhishek",
     day: 9,
-    verify: "Canceled",
+    confirm: "Canceled",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1605632879541%2FWaIMVHWhU.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -415,7 +415,7 @@ const TaskData = [
     delivery: "3",
     assigned: "SURYA",
     day: 9,
-    verify: "In Review",
+    confirm: "In Review",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1651745331378%2Fl3t7REr5Q.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -427,7 +427,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Aman",
     day: 7,
-    verify: "Verify",
+    confirm: "Verify",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1624460561538%2FzfwnG895I.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -439,7 +439,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Sachin",
     day: 1,
-    verify: "Verify",
+    confirm: "Verify",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1642778903484%2FRNtWdTIaP.png%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -451,7 +451,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Michael",
     day: 4,
-    verify: "Verify",
+    confirm: "Verify",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655152396924%2F-dm62-G33.png%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -463,7 +463,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Mayank",
     day: 2,
-    verify: "Verify",
+    confirm: "Verify",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1649464673300%2FEpn0ei2B9.jpg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -475,7 +475,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Luis",
     day: 9,
-    verify: "In Progress",
+    confirm: "In Progress",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1634953945711%2FGec395UiR.png%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -487,7 +487,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Diksha",
     day: 9,
-    verify: "On hold",
+    confirm: "On hold",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655320320653%2Fc_UGuDtDQ.jpg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -499,7 +499,7 @@ const TaskData = [
     delivery: "3",
     assigned: "yaox023",
     day: 7,
-    verify: "Canceled",
+    confirm: "Canceled",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1651659718726%2F7E-0_mw9C.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -511,7 +511,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Shubhaw",
     day: 1,
-    verify: "Verify",
+    confirm: "Verify",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1629402899534%2FaTi2uQ8zs.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -522,7 +522,7 @@ const TaskData = [
     price: "550.00",
     delivery: "3",
     assigned: "Anil",
-    verify: "Verify",
+    confirm: "Verify",
     day: 4,
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1616178642946%2Fp68PdeKkb.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
@@ -535,7 +535,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Idris",
     day: 2,
-    verify: "Verify",
+    confirm: "Verify",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655166860662%2FEfCUXZAti.jpg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -547,7 +547,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Ajay",
     day: 9,
-    verify: "On hold",
+    confirm: "On hold",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1637405659320%2FutkAF2-L8J.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -559,7 +559,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Diala",
     day: 9,
-    verify: "In Progress",
+    confirm: "In Progress",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1650718943968%2F4CdXVbTay.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
@@ -571,7 +571,7 @@ const TaskData = [
     delivery: "3",
     assigned: "Mel",
     day: 7,
-    verify: "In Progress",
+    confirm: "In Progress",
     image:
       "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1653624201058%2FUsPG4IOAt.jpg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },

@@ -1,5 +1,8 @@
 .pagination-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
   list-style-type: none;
 }
 .pagination-container .pagination-item {
@@ -30,10 +33,8 @@
 }
 .pagination-container .pagination-item .arrow::before {
   position: relative;
-  /* top: 3pt;
-    Uncomment this to lower the icons as requested in comments*/
+  /* top: 3pt; */
   content: "";
-  /* By using an em scale, the arrows will size with the font */
   display: inline-block;
   width: 0.4em;
   height: 0.4em;

@@ -1,13 +1,12 @@
-import CustomTaskCustom from "./TaskCustom";
+import TaskCustom from "./TaskCustom";
 import task from "./Task.module.css";
 
-
-const Task = () => {
+const Task = ({ feedback }) => {
   return (
     <section className={task.task}>
       <div>
         <span className={task.label}>current</span>
-        <CustomTaskCustom />
+        <TaskCustom feedback={feedback} />
       </div>
     </section>
   );

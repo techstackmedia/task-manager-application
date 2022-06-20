@@ -6,13 +6,13 @@ import task from "./Task.module.css";
 
 let PageSize = 6;
 
-const TaskCustom = () => {
+const TaskCustom = ({ feedback }) => {
   const [currentPage, setCurrentPage] = useState(1);
 
   const currentTableData = useMemo(() => {
     const firstPageIndex = (currentPage - 1) * PageSize;
     const lastPageIndex = firstPageIndex + PageSize;
-    return data.slice(firstPageIndex, lastPageIndex);
+    return feedback.slice(firstPageIndex, lastPageIndex);
   }, [currentPage]);
 
   const customTaskData = currentTableData.map((item) => {
@@ -55,7 +55,7 @@ const TaskCustom = () => {
             <span className={task.button}>
               {" "}
               <span className={task.buttonAlert}>
-                <small></small> Verify
+                <small></small> {item.verify}
               </span>
             </span>
           </span>
@@ -73,11 +73,11 @@ const TaskCustom = () => {
   return (
     <>
       {customTaskData[0]}
-      {customTaskData.splice(1, data.length)}
+      {customTaskData.splice(1, feedback.length)}
       <Pagination
         className="pagination-bar"
         currentPage={currentPage}
-        totalCount={data.length}
+        totalCount={feedback.length}
         pageSize={PageSize}
         onPageChange={(page) => setCurrentPage(page)}
       />

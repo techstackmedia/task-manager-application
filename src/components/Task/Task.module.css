@@ -112,6 +112,7 @@
   font-size: 10px;
   display: flex;
   align-items: center;
+  width: 90px;
 }
 
 :where(.button small) {

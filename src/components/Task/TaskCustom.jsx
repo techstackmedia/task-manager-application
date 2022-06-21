@@ -26,6 +26,13 @@ const TaskCustom = ({ feedback }) => {
       color = "#716d6d";
     }
 
+    const alertColor = {
+      backgroundColor:
+        item.confirm === "In Review" || item.confirm === "Verify"
+          ? "red"
+          : "transparent",
+    };
+
     const alertButton = {
       backgroundColor:
         item.confirm === "In Progress"
@@ -38,12 +45,13 @@ const TaskCustom = ({ feedback }) => {
           ? "red"
           : null,
     };
+
     return (
       <>
         <div key={item.id} className={task.card}>
           <span className={task.notification}>
             <MdOutlineLibraryBooks size={28} />
-            <div className={task.alert}></div>
+            <div className={task.alert} style={alertButton}></div>
           </span>
           <span>
             <span className={task.item}>
@@ -85,7 +93,7 @@ const TaskCustom = ({ feedback }) => {
             <span>
               <MdChat size={18} color={color} className={task.chatIcon} />
             </span>
-            <span className={task.chat}></span>
+            <span className={task.chat} style={alertColor}></span>
             <MdMoreHoriz size={18} color={color} />
           </span>
         </div>

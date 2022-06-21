@@ -1,7 +1,7 @@
 import { MdSearch, MdSort } from "react-icons/md";
 import search from "./Search.module.css";
 
-const Search = ({ handleSortClick }) => {
+const Search = () => {
   return (
     <section className={search.search}>
       <div>
@@ -12,7 +12,7 @@ const Search = ({ handleSortClick }) => {
             </div>
             <div>
               <span>Sort by</span>
-              <MdSort color="#716d6d" onClick={handleSortClick} />
+              <MdSort color="#716d6d" />
             </div>
           </div>
         </label>

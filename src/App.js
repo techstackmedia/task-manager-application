@@ -6,15 +6,15 @@ import { TaskData as data } from "./mock/TaskData";
 function App() {
   const [feedback, setFeedBack] = useState(data);
 
-  const handleSortClick = () => {
-    setFeedBack((prev) => {
-      prev.sort((a, b) => (a.description > b.description ? 1 : -1));
-    });
-  };
+  // const handleSortClick = () => {
+  //   setFeedBack((prev) => {
+  //     prev.sort((a, b) => (a.description > b.description ? 1 : -1));
+  //   });
+  // };
 
   return (
     <div className="App">
-      <Home feedback={feedback} handleSortClick={handleSortClick} />
+      <Home feedback={feedback} />
     </div>
   );
 }

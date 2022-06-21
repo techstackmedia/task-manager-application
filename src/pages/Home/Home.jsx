@@ -5,11 +5,11 @@ import HeaderTask from "../../components/HeaderTask/HeaderTask";
 import Task from "../../components/Task/Task";
 import "./Home.css";
 
-const Home = ({ feedback, handleSortClick }) => {
+const Home = ({ feedback }) => {
   return (
     <>
       <Header />
-      <Search handleSortClick={handleSortClick} />
+      <Search />
       <div className="Home">
         <Sidebar />
         <HeaderTask />

@@ -123,8 +123,7 @@
   align-items: center;
   display: inline-flex;
   margin-right: 10px;
-
-  color: #2e64c9ed;
+  color: rgba(46, 99, 199, 0.929);
 }
 
 :where(.chatBox) {

@@ -1,7 +1,6 @@
 import { MdOutlineLibraryBooks, MdChat, MdMoreHoriz } from "react-icons/md";
 import { useState, useMemo } from "react";
 import Pagination from "../Pagination/Pagination";
-import { TaskData as data } from "../../mock/TaskData";
 import task from "./Task.module.css";
 
 let PageSize = 6;
@@ -13,9 +12,32 @@ const TaskCustom = ({ feedback }) => {
     const firstPageIndex = (currentPage - 1) * PageSize;
     const lastPageIndex = firstPageIndex + PageSize;
     return feedback.slice(firstPageIndex, lastPageIndex);
-  }, [currentPage]);
+  }, [currentPage, feedback]);
 
   const customTaskData = currentTableData.map((item) => {
+    let color;
+    if (
+      item.confirm === "In Progress" ||
+      item.confirm === "On hold" ||
+      item.confirm === "Canceled"
+    ) {
+      color = "#ccc";
+    } else {
+      color = "#716d6d";
+    }
+
+    const alertButton = {
+      backgroundColor:
+        item.confirm === "In Progress"
+          ? "#2e64c9ed"
+          : item.confirm === "In Review"
+          ? "#c9c92eed"
+          : item.confirm === "On hold"
+          ? "#ccc"
+          : item.confirm === "Cancel"
+          ? "red"
+          : null,
+    };
     return (
       <>
         <div key={item.id} className={task.card}>
@@ -55,16 +77,16 @@ const TaskCustom = ({ feedback }) => {
             <span className={task.button}>
               {" "}
               <span className={task.buttonAlert}>
-                <small></small> {item.confirm}
+                <small style={alertButton}></small> {item.confirm}
               </span>
             </span>
           </span>
           <span className={task.chatBox}>
             <span>
-              <MdChat size={18} color="#716d6d" className={task.chatIcon} />
+              <MdChat size={18} color={color} className={task.chatIcon} />
             </span>
             <span className={task.chat}></span>
-            <MdMoreHoriz size={18} color="#716d6d" />
+            <MdMoreHoriz size={18} color={color} />
           </span>
         </div>
       </>

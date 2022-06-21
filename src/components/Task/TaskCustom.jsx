@@ -1,6 +1,6 @@
 import { MdOutlineLibraryBooks, MdChat, MdMoreHoriz } from "react-icons/md";
 import { useState, useMemo } from "react";
-import Pagination from "../Pagination/Pagination";
+import Pagination from "../Pagination/Pagination.jsx";
 import task from "./Task.module.css";
 
 let PageSize = 6;

@@ -1,6 +1,6 @@
 import { MdOutlineLibraryBooks, MdChat, MdMoreHoriz } from "react-icons/md";
 import { useState, useMemo } from "react";
-import Pagination from "../Pagination/pagination";
+import Pagination from "../Pagination/Pagination";
 import task from "./Task.module.css";
 
 let PageSize = 6;
@@ -41,7 +41,7 @@ const TaskCustom = ({ feedback }) => {
           ? "#c9c92eed"
           : item.confirm === "On hold"
           ? "#ccc"
-          : item.confirm === "Cancel"
+          : item.confirm === "Canceled"
           ? "red"
           : null,
     };

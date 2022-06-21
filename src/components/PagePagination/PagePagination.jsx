@@ -2,7 +2,7 @@ import { FaAngleLeft } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa";
 import classnames from "classnames";
 import { usePagination, DOTS } from "./usePagination";
-import "./Pagination.css";
+import "./PagePagination.css";
 
 const Pagination = (props) => {
   const {
@@ -20,7 +20,6 @@ const Pagination = (props) => {
     siblingCount,
     pageSize,
   });
-
 
   if (currentPage === 0 || paginationRange.length < 2) {
     return null;

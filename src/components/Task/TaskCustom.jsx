@@ -7,7 +7,6 @@ let PageSize = 6;
 
 const TaskCustom = ({ feedback }) => {
   const [currentPage, setCurrentPage] = useState(1);
-
   const currentTableData = useMemo(() => {
     const firstPageIndex = (currentPage - 1) * PageSize;
     const lastPageIndex = firstPageIndex + PageSize;
@@ -15,16 +14,12 @@ const TaskCustom = ({ feedback }) => {
   }, [currentPage, feedback]);
 
   const customTaskData = currentTableData.map((item) => {
-    let color;
-    if (
+    const color =
       item.confirm === "In Progress" ||
       item.confirm === "On hold" ||
       item.confirm === "Canceled"
-    ) {
-      color = "#ccc";
-    } else {
-      color = "#716d6d";
-    }
+        ? "#ccc"
+        : "#716d6d";
 
     const alertColor = {
       backgroundColor:
@@ -46,6 +41,28 @@ const TaskCustom = ({ feedback }) => {
           : null,
     };
 
+    const taskType = {
+      color:
+        item.type === "Custom Task"
+          ? "#716d6d"
+          : item.type === "Marketing & Sales"
+          ? "#f55671"
+          : item.type === "Integrations"
+          ? "#036e8f"
+          : item.type === "Optimization"
+          ? "#6ca714"
+          : null,
+      backgroundColor:
+        item.type === "Custom Task"
+          ? "#716d6d22"
+          : item.type === "Marketing & Sales"
+          ? "#f5567122"
+          : item.type === "Integrations"
+          ? "#036e8f22"
+          : item.type === "Optimization"
+          ? "#6ca71422"
+          : null,
+    };
     return (
       <>
         <div key={item.id} className={task.card}>
@@ -56,7 +73,9 @@ const TaskCustom = ({ feedback }) => {
           <span>
             <span className={task.item}>
               <h3>{item.description}</h3>
-              <span className={task.taskType}>{item.type}</span>
+              <span className={task.taskType} style={taskType}>
+                {item.type}
+              </span>
             </span>
           </span>
           <span>

@@ -17,11 +17,11 @@ const TaskData = [
     type: "Marketing & Sales",
     price: "300.00",
     delivery: "3",
-    assigned: "Jerry",
+    assigned: "Edidiong",
     day: 4,
     confirm: "In Progress",
     image:
-      "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1597741164753%2FothOPYGRR.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
+      "https://hashnode.com/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655726991087%2F-EC8Ox3CT.jpeg%3Fw%3D150%26h%3D150%26fit%3Dcrop%26crop%3Dfaces%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const TaskData = [
   {
     id: 4,
     description: "Increase confidence with TrustPilots reviews",
-    type: "Integration",
+    type: "Integrations",
     price: "645.00",
     delivery: "3",
     assigned: "Tapan",
@@ -62,7 +62,7 @@ const TaskData = [
   {
     id: 6,
     description: "Get a complete store audit by our marketing experts",
-    type: "Integration",
+    type: "Integrations",
     price: "5000.00",
     delivery: "3",
     assigned: "Hamza",
@@ -86,7 +86,7 @@ const TaskData = [
   {
     id: 8,
     description: "Do more with less this months",
-    type: "Integration",
+    type: "Integrations",
     price: "550.00",
     delivery: "3",
     assigned: "Oladetoun",
@@ -110,7 +110,7 @@ const TaskData = [
   {
     id: 10,
     description: "Increase confidence with TrustPilots reviews",
-    type: "Integration",
+    type: "Integrations",
     price: "800.00",
     delivery: "3",
     assigned: "Johnny",
@@ -182,7 +182,7 @@ const TaskData = [
   {
     id: 16,
     description: "Increase confidence with TrustPilots reviews",
-    type: "Integration",
+    type: "Integrations",
     price: "645.00",
     delivery: "3",
     assigned: "Syed",
@@ -206,7 +206,7 @@ const TaskData = [
   {
     id: 18,
     description: "Get a complete store audit by our marketing experts",
-    type: "Integration",
+    type: "Integrations",
     price: "5000.00",
     delivery: "3",
     assigned: "Eleftheria",
@@ -230,7 +230,7 @@ const TaskData = [
   {
     id: 20,
     description: "Do more with less this months",
-    type: "Integration",
+    type: "Integrations",
     price: "550.00",
     delivery: "3",
     assigned: "Thai",
@@ -254,7 +254,7 @@ const TaskData = [
   {
     id: 22,
     description: "Increase confidence with TrustPilots reviews",
-    type: "Integration",
+    type: "Integrations",
     price: "800.00",
     delivery: "3",
     assigned: "Ajay",
@@ -326,7 +326,7 @@ const TaskData = [
   {
     id: 28,
     description: "Increase confidence with TrustPilots reviews",
-    type: "Integration",
+    type: "Integrations",
     price: "645.00",
     delivery: "3",
     assigned: "Uche",
@@ -350,7 +350,7 @@ const TaskData = [
   {
     id: 30,
     description: "Get a complete store audit by our marketing experts",
-    type: "Integration",
+    type: "Integrations",
     price: "5000.00",
     delivery: "3",
     assigned: "Utkarsh",
@@ -374,7 +374,7 @@ const TaskData = [
   {
     id: 32,
     description: "Do more with less this months",
-    type: "Integration",
+    type: "Integrations",
     price: "550.00",
     delivery: "3",
     assigned: "Koder",
@@ -398,7 +398,7 @@ const TaskData = [
   {
     id: 34,
     description: "Increase confidence with TrustPilots reviews",
-    type: "Integration",
+    type: "Integrations",
     price: "800.00",
     delivery: "3",
     assigned: "Abhishek",
@@ -470,7 +470,7 @@ const TaskData = [
   {
     id: 40,
     description: "Increase confidence with TrustPilots reviews",
-    type: "Integration",
+    type: "Integrations",
     price: "645.00",
     delivery: "3",
     assigned: "Luis",
@@ -494,7 +494,7 @@ const TaskData = [
   {
     id: 42,
     description: "Get a complete store audit by our marketing experts",
-    type: "Integration",
+    type: "Integrations",
     price: "5000.00",
     delivery: "3",
     assigned: "yaox023",
@@ -518,7 +518,7 @@ const TaskData = [
   {
     id: 44,
     description: "Do more with less this months",
-    type: "Integration",
+    type: "Integrations",
     price: "550.00",
     delivery: "3",
     assigned: "Anil",
@@ -542,7 +542,7 @@ const TaskData = [
   {
     id: 46,
     description: "Increase confidence with TrustPilots reviews",
-    type: "Integration",
+    type: "Integrations",
     price: "800.00",
     delivery: "3",
     assigned: "Ajay",
